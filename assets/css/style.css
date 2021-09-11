@@ -10,7 +10,8 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #262626;
   line-height: 1.4;
-  background-color: #222831;
+  /* background-color: #222831; */
+  background-color: black;
 }
 
 footer {
@@ -29,20 +30,16 @@ a:hover {
   display: none;
 }
 
-::selection {
-  background: rgba(240, 84, 84, 0.5);
-}
-
 /* Splash Landing */
 
-.header-gradient {
+/* .header-gradient {
   width: 100%;
   height: 50vh;
   bottom: 0;
   float: left;
   position: absolute;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
-}
+} */
 
 .landing {
   width: 100%;
@@ -56,13 +53,10 @@ a:hover {
   z-index: 1;
   top: 0;
   left: 0;
-  /* background-image: url("../images/bg.jpg"); */
-  background-size: cover;
-  background-position-y: 0px;
-  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-color: #222831; /* if background is not available */
-  /* background-color: #f05454; */
+  background-color: #222831;
 }
 
 .link {
@@ -302,7 +296,7 @@ ul.tag-list {
 
 ul.tag-list li {
   display: inline-block;
-  float: left;
+  /* float: left; */
   list-style: none;
   padding: 0 15px;
   margin-bottom: 10px;
