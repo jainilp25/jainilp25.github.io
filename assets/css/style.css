@@ -10,8 +10,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #262626;
   line-height: 1.4;
-  /* background-color: #222831; */
-  background-color: black;
+  background-color: #1f2833;
 }
 
 footer {
@@ -56,11 +55,11 @@ a:hover {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #222831;
+  background-color: #ffffff;
 }
 
 .link {
-  color: #f05454;
+  color: #45a29e;
 }
 
 .link:hover {
@@ -80,7 +79,7 @@ a:hover {
 }
 
 .header-links a {
-  color: #fff;
+  color: #c5c6c7;
   opacity: 0.7;
   font-weight: bold;
   transition: opacity 200ms ease-in-out;
@@ -107,7 +106,7 @@ a:hover {
 
 #name {
   font-family: "Open Sans";
-  color: white;
+  color: #1f2833;
   font-size: 200px;
   text-align: center;
   margin-top: 0px;
@@ -119,7 +118,7 @@ a:hover {
 }
 
 .header-icons a {
-  color: #fff;
+  color: #1f2833;
   font-weight: bold;
   opacity: 0.7;
   transition: opacity 200ms ease-in-out;
@@ -221,9 +220,9 @@ a:hover {
 }
 
 .button {
-  color: #fff;
+  color: #ffffff;
   /* color: white; */
-  background-color: black;
+  background-color: #1f2833;
   box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.2);
   border-radius: 50px;
   font-size: 14px;
@@ -321,7 +320,7 @@ ul.tag-list li:not(:last-of-type) {
 .repo-button {
   display: inline-block;
   color: white;
-  background-color: black;
+  background-color: #1f2833;
   box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.2);
   border-radius: 50px;
   font-size: 14px;
@@ -334,7 +333,7 @@ ul.tag-list li:not(:last-of-type) {
 
 .email-header {
   display: block;
-  color: #fff;
+  color: #ffffff;
   font-size: 32px;
   margin: 40px 0;
   font-weight: bold;
