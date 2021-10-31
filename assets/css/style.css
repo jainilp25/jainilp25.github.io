@@ -199,6 +199,10 @@ a:hover {
 }
 
 .main-section .projects {
+  margin-bottom: 40px;
+}
+
+.main-section .last {
   margin-bottom: 0px;
 }
 
@@ -262,6 +266,7 @@ a:hover {
 
 .projects img {
   height: 200px;
+  width: 200px;
   float: left;
   border-radius: 10px;
   box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.2);
@@ -343,4 +348,9 @@ ul.tag-list li:not(:last-of-type) {
 
 .email-header:hover {
   transform: translate(0, -5px);
+}
+
+.email-link {
+  font-size: 25px;
+  text-align: center;
 }
