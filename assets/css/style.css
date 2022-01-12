@@ -208,6 +208,8 @@ a:hover {
 
 .section .container {
   padding: 20px;
+  margin: auto;
+  width: 70%;
 }
 
 .skill-img {
@@ -362,7 +364,7 @@ ul.tag-list li:not(:last-of-type) {
   line-height: 50px;
 }
 
-.navbar a{
+.navbar a {
   padding-left: 25px;
   color: black;
   font-size: larger;
