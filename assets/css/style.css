@@ -369,3 +369,8 @@ ul.tag-list li:not(:last-of-type) {
   color: black;
   font-size: larger;
 }
+
+.topnav-right {
+  float: right;
+  padding-right: 25px;
+}
